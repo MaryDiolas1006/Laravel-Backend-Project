@@ -1,0 +1,263 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// put design here
+body {
+  margin: 0;
+  font-family: 'Russo One', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background: url('https://i.pinimg.com/736x/c1/2e/a2/c12ea23a27b351a23b55a91d272863c0.jpg');
+  background-repeat: repeat;
+  background-size: contain, cover;
+  background-attachment: scroll;
+}
+
+#login {
+	background-color: #00bcd4;
+	margin-top: 50px;
+}
+
+#register {
+	background-color: #00bcd4;
+	margin-top: 50px;
+}
+
+#submit {
+	background-color: #81b214;
+	border: 2px solid #fddb3a;
+}
+
+#edit_level{
+	background-color: #ffd571;
+	width:60px;
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #ed6663;
+}
+
+#edit_level:hover {
+	background-color: #d3de32;
+}
+
+#btn-delete {
+	background-color: #cf1b1b;
+	width:60px;
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #fddb3a;
+	color:white;
+}
+
+#btn-delete:hover{
+	background-color: #e7305b;
+}
+
+#card {
+
+	background-color: #7fdbda;
+	margin: 20px;
+	border-radius: 10px;
+	width: 100%;
+	border: 2px solid #1dd3bd;
+}
+
+// #card-2 {
+
+// 	background-color: #7fdbda;
+// 	border-radius: 10px;
+// 	// width: 100%;
+// 	border: 2px solid #1dd3bd;
+// }
+
+.card {
+	width; 50%;
+}
+
+#title {
+	
+	margin-bottom: 50px;
+}
+
+#createBtn {
+	background-color: #24a19c;
+	width:100px;
+	padding:5px;
+	border-radius: 4px;
+	border: 2px solid #ade498;
+} 
+
+#createBtn:hover {
+	background-color: #6ebfb5;
+}
+
+#name:hover {
+	border: 2px solid pink;
+}
+
+#edit_btn {
+
+	background-color: #ffd571;
+	width:100px;
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #ed6663;
+
+}
+
+#edit_btn:hover {
+	background-color: #d3de32;
+}
+
+// Teachers styling
+
+#profile{
+	margin-bottom: 50px;
+}
+
+#grade{
+	font-size: 15px;
+}
+
+#advisor {
+	background-color: #d54062;
+	border-radius: 5px;
+	border: 2px solid #ffa36c;
+	color:white;
+}
+
+#row {
+	margin-top: 30px;
+}
+
+#details {
+	background-color: #91d18b;
+	border: 2px solid #158467;
+	border-radius: 5px;
+}
+
+#details:hover {
+	background-color: #21bf73;
+}
+
+#teacher-edit {
+	background-color: #ffd571;
+	border-radius: 5px;
+	border: 2px solid #ed6663;
+}
+
+#teacher-edit:hover {
+	background-color: #d3de32;
+}
+
+#teacher-delete {
+	background-color: #cf1b1b;
+	border-radius: 5px;
+	border: 2px solid #fddb3a;
+	color:white;
+}
+
+#teacher-delete:hover {
+	background-color: #e7305b;
+}
+
+#add-teacher {
+	margin-bottom: 50px
+}
+
+#fullname {
+	font-size:15px;
+}
+
+#teacher-name {
+	margin-top: 20px;
+	
+}
+
+#description:hover {
+	border: 2px solid pink;
+}
+
+#teacherBtn {
+	background-color: #24a19c;
+	width:300px;
+	padding:5px;
+	border-radius: 6px;
+	border: 2px solid #ade498;
+}
+
+#show-desc {
+	font-size:20px;
+}
+
+#edit-teacher {
+	margin-bottom: 50px
+}
+
+
+// Students Styling
+
+#studentCard {
+	margin-top: 100px;
+}
+
+#student-view{
+	background-color: #91d18b;
+	border: 2px solid #158467;
+	border-radius: 5px;
+}
+
+#student-view:hover {
+	background-color: #21bf73;
+}
+
+#student-edit {
+	background-color: #ffd571;
+	border-radius: 5px;
+	border: 2px solid #ed6663;	
+}
+
+#student-edit:hover {
+	background-color: #d3de32;
+}
+
+#student-delete {
+	background-color: #cf1b1b;
+	border-radius: 5px;
+	border: 2px solid #fddb3a;
+	color:white;
+}
+
+#student-delete:hover {
+	background-color: #e7305b;
+}
+
+#grade_level:hover {
+	border: 2px solid pink;
+}
+
+#studentBtn {
+	background-color: #24a19c;
+	width:200px;
+	padding:5px;
+	border-radius: 6px;
+	border: 2px solid #ade498;
+}
+
+#studentBadge {
+	background-color: teal;
+	color:black;
+	border: 1px solid red;
+}
+
+
+
